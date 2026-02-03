@@ -1,0 +1,51 @@
+/* Toàn trang */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: white;
+  margin: 0;
+  padding: 20px;
+  color: black;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: auto; /* căn giữa nội dung */
+}
+
+/* Tiêu đề */
+h2 {
+  color: blue;
+  border-bottom: 2px solid lightblue;
+  margin-top: 30px;
+}
+
+h3 {
+  color: blue;
+  border-bottom: 2px solid lightblue;
+  margin-top: 20px;
+}
+
+/* Ảnh chân dung */
+img {
+  display: block;
+  margin: 20px;
+  border-radius: 50%;
+  border: 3px solid lightblue;
+  width: 150px;
+  height: auto;
+}
+
+
+/* Liên kết */
+a {
+  color: #007acc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+/* Video và audio */
+video, audio {
+  display: block;
+  margin: 20px auto;
+  border: 2px solid white;
+  border-radius: 8px;
+}
